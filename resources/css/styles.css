@@ -1,0 +1,322 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: #eeeeee;
+}
+
+header {
+  background-color: #ffffff;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 5;
+}
+
+main {
+  padding-top: 12rem;
+}
+
+.container-logo {
+  display: flex;
+  padding: 2rem;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.container-logo img {
+  width: 25%;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul li {
+  list-style: none;
+}
+ul li a {
+  color: black;
+  padding: 0 3rem;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.375rem;
+  font-weight: 600;
+}
+
+main {
+  margin: 3rem 1rem;
+}
+
+.mission {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/background.jpeg");
+  flex-wrap: wrap;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 1270px;
+  height: 720px;
+  margin: 0 auto;
+  border-radius: 2.7rem;
+  border-image: stretch;
+}
+
+.content-mission {
+  display: flex;
+  position: absolute;
+  top: 20rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-mission p {
+  color: white;
+  font-family: "Lexend Mega", sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  max-width: 50%;
+}
+
+.h2-products {
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 2rem;
+  font-family: "Noto Sans", sans-serif;
+}
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  justify-items: center;
+  justify-content: center;
+  align-content: center;
+  margin-top: 2rem;
+  gap: 2rem;
+  font-family: "Noto Sans", sans-serif;
+  height: auto;
+}
+
+.product {
+  background-color: #ffffff;
+  border-radius: 2rem;
+  padding-bottom: 1.3rem;
+}
+
+.product h3 {
+  padding: 1.5rem 2.4rem 0 2.4rem;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 24px;
+}
+.product p {
+  padding: 0.5rem 2.4rem 0 2.4rem;
+  font-size: 1rem;
+}
+.container-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.container-icon .icon {
+  cursor: pointer;
+  font-weight: bold;
+}
+.container-icon svg {
+  width: 20px;
+  cursor: pointer;
+}
+
+.product-one .img {
+  background-image: url("https://www.coca-cola.com/content/dam/onexp/pe/es/brands/incakola/homepage_incakola_desktop.jpg/width2674.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 0.75rem 0.75rem 0 0;
+  height: 220px;
+}
+.product-two .img {
+  background-image: url("https://www.coca-cola.com/content/dam/onexp/pe/es/offerings/fanta-halloween-2024/etapa-2/pe_content_card_beetlejuice.jpg/width2674.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 0.75rem 0.75rem 0 0;
+  height: 220px;
+}
+.product-three .img {
+  background-image: url("https://www.coca-cola.com/content/dam/onexp/pe/es/homepage/coke_studio_card.jpg/width2674.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 0.75rem 0.75rem 0 0;
+  height: 220px;
+}
+
+.h2-team {
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 2rem;
+  font-family: "Noto Sans", sans-serif;
+}
+.info-team {
+  margin: 1rem auto;
+  width: 50%;
+  text-align: center;
+}
+
+.team {
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  justify-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  gap: 2rem;
+  font-family: "Noto Sans", sans-serif;
+  height: auto;
+}
+
+.one .img {
+  background-image: url("https://www.coca-colacompany.com/content/dam/company/us/en/about-us/leadership/james-quincey-desktop.jpg/width2674.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 0.75rem 0.75rem 0 0;
+  height: 200px;
+}
+.two .img {
+  background-image: url("https://www.coca-colacompany.com/content/dam/company/us/en/about-us/leadership/john-murphy-desktop.jpg/width2674.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 0.75rem 0.75rem 0 0;
+  height: 200px;
+}
+.three .img {
+  background-image: url("https://www.coca-colacompany.com/content/dam/company/us/en/bios/Manolo-arroyo-5x4.png/width2674.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 0.75rem 0.75rem 0 0;
+  height: 200px;
+}
+.four .img {
+  background-image: url("https://www.coca-colacompany.com/content/dam/company/us/en/about-us/leadership/stacy-apter-headshot-5x4.jpg/width2674.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 0.75rem 0.75rem 0 0;
+  height: 200px;
+}
+.five .img {
+  background-image: url("https://www.coca-colacompany.com/content/dam/company/us/en/bios/Derek-Benz-5x4.png/width2674.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 0.75rem 0.75rem 0 0;
+  height: 200px;
+}
+.six .img {
+  background-image: url("https://www.coca-colacompany.com/content/dam/company/us/en/about-us/leadership/Henrique-Braun-Headshot-5x4-tighter.jpg/width2674.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 0.75rem 0.75rem 0 0;
+  height: 200px;
+}
+
+footer {
+  background-color: #000000;
+  display: grid;
+  justify-items: center;
+  grid-template-rows: repeat(autofit, minmax(200px, 1rem));
+  color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 0;
+  border-bottom: 1px solid #fff;
+  width: 60%;
+}
+.container img {
+  width: 249px;
+  height: 40px;
+}
+.container button {
+  border-radius: 1.4rem;
+  background: transparent;
+  color: white;
+  padding: 0rem 1rem;
+}
+.container button i {
+  padding-right: 0.5rem;
+}
+
+.lists {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0;
+  border-bottom: 1px solid #fff;
+  width: 60%;
+}
+
+.list-one {
+  display: flex;
+}
+.list-one ul {
+  display: block;
+  padding: 0 5.5rem 0 0;
+}
+.list-one ul p {
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 2.4rem;
+  text-transform: uppercase;
+  color: #d5d5d5;
+}
+.list-one ul li {
+  font-size: 14px;
+  line-height: 2rem;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+}
+.third {
+  margin-top: 2.4rem;
+}
+
+.list-two {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.items i {
+  padding: 0 0 0 1.4rem;
+  border-radius: 4px;
+}
+.acces {
+  display: flex;
+  justify-content: end;
+}
+
+.copyright {
+  display: flex;
+  justify-content: end;
+  padding: 3rem 0 7rem 0;
+  width: 60%;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+}
